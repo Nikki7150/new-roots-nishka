@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/*index.html*/
+/*first picture*/
 .imgwrapper {
   display: block;
   width: 100%;
@@ -16,7 +19,7 @@
   width: 100%;
   height: auto;
 }
-
+/*code at the center of the picture*/
 .container {
   position: relative;
   text-align: center;
@@ -25,20 +28,26 @@
   margin: 0;
   padding: 0;
 }
-
 .centered-right {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  button {
+    background-color: #ffa8c8;
+  }
+  button:hover {
+    background-color: #a66e82;
+  }
 }
-
+/*second picture*/
 #pic2 {
   float: right;
   width: 32.5%;
 }
-
+/*bulleted list next to second picture*/
 .info {
+  background-color: #d6eadf;
   position: relative;
   text-align: left;
   color: black;
@@ -49,15 +58,14 @@
   border: 1px solid black;
   border-radius: 25px;
   line-height: 2.6;
-
 }
-
+/*bulleted list customized bullets*/
 ul li::marker {
   content: "✦ "; /* Unicode character for a star */
   color: black; /* Example: set the star color */
   font-size: 1em; /* Adjust the size of the star */
 }
-
+/*navigation bar*/
 nav {
   border: 1px solid black;
   ul {
@@ -94,10 +102,14 @@ nav {
         padding: 10px;
         margin-right: 6em;
         font-size: 25px;
+        background-color: #ffa8c8;
+      }
+      a[href="takeaction.html"]:hover {
+        background-color: #a66e82;
       }
       a:hover {
-        background-color: black;
-        color: white;
+        background-color: #e3e3e3;
+        color: black;
       }
       a:has(#logo):hover {
         background-color: transparent;
@@ -114,7 +126,7 @@ nav {
     padding-bottom: 0px;
   }
 }
-
+/*all buttons in page one*/
 button {
   border: 1px solid black;
   border-radius: 50px;
@@ -127,13 +139,41 @@ button {
     padding: 10px 15px;
   }
 }
-
+/*story generator*/
+.genstory {
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: #c6def1;
+  overflow: hidden;
+  text-align: center;
+  line-spacing: 1.6;
+  font-size: 25px;
+  padding: 25px;
+  margin-left: 450px;
+  margin-right: 450px;
+  #storybtn {
+    background-color: #95b8d1;
+  }
+  #storybtn:hover {
+    background-color: #c6def1;
+  }
+}
+/*story text*/
+#story {
+  font-size: 25px;
+  margin: 20px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+/*bottom navigation bar*/
 #nav2 {
   bottom: 0;
   display: flex;
   justify-content: center;
 }
 
+/*about.html*/
+/*image one*/
 #abt1 {
   border: 1px solid black;
   overflow: hidden;
@@ -143,6 +183,7 @@ button {
   float: left;
   width: 30em;
 }
+/*image two*/
 #abt2 {
   border: 1px solid black;
   overflow: hidden;
@@ -153,6 +194,7 @@ button {
   float: right;
   width: 30em;
 }
+/*image three*/
 #abt3 {
   border: 1px solid black;
   overflow: hidden;
@@ -164,7 +206,7 @@ button {
   float: left;
   width: 30em;
 }
-
+/*text box one*/
 #h31 {
   border: 1px solid black;
   overflow: hidden;
@@ -175,7 +217,9 @@ button {
   margin-right: 150px;
   margin-left: 3em;
   width: 26em;
+  background-color: #f0e2c3;
 }
+/*text box two*/
 #h32 {
   border: 1px solid black;
   overflow: hidden;
@@ -185,7 +229,9 @@ button {
   margin-left: 150px;
   margin-right: 3em;
   width: 26em;
+  background-color: #d6d2ff;
 }
+/*text box three*/
 #h33 {
   border: 1px solid black;
   overflow: hidden;
@@ -196,8 +242,11 @@ button {
   margin-right: 150px;
   margin-left: 3em;
   width: 26em;
+  background-color: #f7d9c4;
 }
 
+/*takeaction.html*/
+/*signup for newsletter personalized*/
 #main2 {
   border: 1px solid black;
   border-radius: 25px;
@@ -206,6 +255,7 @@ button {
   margin-right: 300px;
   margin-left: 300px;
   text-align: center;
+  background-color: #c9e4de;
   h2 {
     font-size: 40px;
     margin-bottom: 20px;
@@ -215,11 +265,20 @@ button {
     margin-bottom: 20px;
   }
   label {
-    font-size: 20px;
     display: block;
+    font-size: 20px;
     margin: 20px;
+  }
+  #label2 {
+    margin-left: 58px;
   }
   #signup {
     display: block;
+    margin-left: 275px;
+    margin-bottom: 20px;
+    background-color: #8ca6a1;
+  }
+  #signup:hover {
+    background-color: #c9e4de;
   }
 }
