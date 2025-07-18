@@ -2,7 +2,9 @@
 var displaymessage = document.getElementById("message");
 var button = document.getElementById("signup");
 
-button.addEventListener("click", displaymsg);
+if (button) {
+  button.addEventListener("click", displaymsg);
+}
 
 function displaymsg() {
   var name = document.getElementById("name").value;
