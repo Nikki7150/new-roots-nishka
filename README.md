@@ -1,50 +1,46 @@
-# Activist Toolkit Sample Project
+# New Roots Activist Website - Web Development and design course 
 
-This is a place for you to start building your activist toolkit!
+## Description
+This is my very own website for a cause that I want to see get better. It's to make awareness to the Immigrant and First gen students difficulties as they get into high school and college. It is not connected or affiliated with any other websites or people. I just made it for my Girls Who Code program. 
 
+## Technologies Used
+* HTML
+* CSS
+* JavaScript
 
-### Project Requirements
-Your project should:
-- Build a multipage website using HTML, CSS, and JavaScript.
-- Implement at least one of the key features from the menu. 
-- Customize the look and feel of your site through colors, images, and fonts using CSS.
-- Include alt text for every image in your website.
-- Use code comments to describe your code.
+## How to Run
 
+1.  **Unzip the file:** Extract the contents of the downloaded ZIP file to a local folder on your computer.
+2.  **Open with a browser:** Navigate to the project folder, locate the `index.html` file, and double-click it. This will open the project in your default web browser.
 
-### Extensions
-You can extend your project further by:
-- Refactor your code.
-- Add a nice-to-have feature.
-- Port to GitHub pages.
-- Add another key feature.
+3.  After doing this, the program should work. If it doesnt, I am really sorry. You can email me just in case if I havent emailed you. I will be emailing a video live demo of the website. Since i made this in replit, I couldnt deploy it into the internet. You can also check it out in my github page i pasted in the comments in the google form as well as the replit link in the comments.
 
-
-### Image Attributions
-
----
-
-## File Overview
-
+## Files included
 ### ← README.md
 
-That's this file. This is the place to tell people more about what your website does and how you built it. 
+That's this file. This is the place to tell people more about what my website does and how I built it. 
 
 ### ← index.html
 
-HTML files are for content! Add your text, images, buttons, and more using HTML tags.
+This file contains the code for my home page of my project. 
+
+### ← about.html
+
+This file contains the code for my about page of my project. 
+
+### ← takeaction.html
+
+This file contains the code for my take action page of my project. 
 
 ### ← style.css
 
-CSS files add styling rules to your content like changing colors and fonts. 
+CSS files add styling rules to my content like changing colors and fonts and resizing. 
 
 ### ← script.js
 
-JavaScript files add interactivity to your website using code. This is where you can listen for events, then take an action.
+JavaScript files add interactivity to my website using code. This is where I have made buttons listen for events, then take an action.
 
 ### ← assets
 
-Drag in `assets`, like images or music, to add them to your project. You do not need to add anything to this folder unless you are working on the extensions. If you are adding an image, it is best to save it to your computer, then upload the file to the `assets` folder. The url of the image will be `assets/example.jpg`.
+This folder has all the pictures that I used in this project. 
 
-
-# new-roots-nishka
