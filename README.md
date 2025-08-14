@@ -50,3 +50,7 @@ JavaScript files add interactivity to my website using code. This is where I hav
 
 This folder has all the pictures that I used in this project. 
 
+### Replit files
+
+the replit files found in this website are present because I moved this project from replit to github Codespaces for in depth coding as well as using wakatime to connect my project to athena awards, summer of making and hackclub. 
+
