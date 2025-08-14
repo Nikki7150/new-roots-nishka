@@ -2,6 +2,8 @@
 
 ## Description
 This is my very own website for a cause that I want to see get better. It's to make awareness to the Immigrant and First gen students difficulties as they get into high school and college. It is not connected or affiliated with any other websites or people. I just made it for my Girls Who Code program. 
+### update
+I have connected many other websites on the resources tab of this website. It is still made just as a side project so it shows that you are signing up for the letter, but really, you are not. It is just some customizable text made as per the GWC course. 
 
 ## Technologies Used
 * HTML
@@ -31,6 +33,10 @@ This file contains the code for my about page of my project.
 ### ← takeaction.html
 
 This file contains the code for my take action page of my project. 
+
+###  ← resources.html
+
+This file contains the code for my resources page of my project. 
 
 ### ← style.css
 
